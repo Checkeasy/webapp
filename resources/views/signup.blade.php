@@ -99,6 +99,12 @@
 								<a type="submit" href="{{route('thank_you')}}" class="submit btn btn-default" value="Submit Payment">Submit</a>
 							</div>
 						</div>
+
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-8">
+								<a type="submit" href="{{route('thank_you')}}" class="submit btn btn-default" value="Submit Payment">Submit</a>
+							</div>
+						</div>
 					</form><br>
 					<!-- <p> Name </p>
 					<input type="TEXT" id="user" size="40"><br><br>
