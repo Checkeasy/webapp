@@ -23,14 +23,14 @@ class HomeController extends Controller
     	return view('signup');
     }
 
-    public function customer()
+    public function customers()
     {
-    	return view('customer');
+    	return view('customers');
     }
 
-    public function restaurant()
+    public function restaurants()
     {
-    	return view('restaurant');
+    	return view('restaurants');
     }
 
     public function thanks()

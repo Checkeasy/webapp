@@ -2,7 +2,7 @@
 
 @section('css')
 <style type="text/css">
-	body {
+	.content {
 		background-image: url('/images/background.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;

@@ -11,13 +11,13 @@
 |
 */
 
-Route::get('/', 			['as' => 'index',    	'uses' => 'HomeController@index']);
+Route::get('/', 				['as' => 'index',    	'uses' => 'HomeController@index']);
 
-Route::get('signup', 		['as' => 'signup',   	'uses' => 'HomeController@signup']);
+Route::get('signup', 			['as' => 'signup',   	'uses' => 'HomeController@signup']);
 
-Route::get('customer', 		['as' => 'customer', 	'uses' => 'HomeController@customer']);
+Route::get('customers', 		['as' => 'customers', 	'uses' => 'HomeController@customers']);
 
-Route::get('restaurant', 	['as' => 'restaurant', 	'uses' => 'HomeController@restaurant']);
+Route::get('restaurants', 		['as' => 'restaurants', 'uses' => 'HomeController@restaurants']);
 
-Route::get('thank_you', 	['as' => 'thank_you', 	'uses' => 'HomeController@thanks']);
+Route::get('thank_you', 		['as' => 'thank_you', 	'uses' => 'HomeController@thanks']);
 

@@ -53,14 +53,33 @@
 
         <style type="text/css">
 
-        	#wrapper {
+            * {
+                margin: 0;
+            }
+
+            .wrapper {
+                min-height: 100%;
+                height: auto !important;
+                height: 100%;
+                margin: 0 auto -4em;
+            }
+
+            html, body {
+                height: 100%;
+            }
+
+        	/*#wrapper {
         		position:relative;
         		height: 100%;
         		margin-left: 2%;
         		margin-right: 2%;
-        	}
+        	}*/
 
-        	#footer {
+            .footer, .push {
+                height: 4em;
+            }
+
+        	/*#footer {
         		position:absolute;
         		bottom:0;
         		margin:0;
@@ -70,12 +89,13 @@
         		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         		font-size: 1em;
         		line-height: 1.6em;
-        	}
+        	}*/
 
 
         	#footer-text{
-        		margin: 0;
+        		margin: 0 0 0 20px;
         	}
+
         </style>
 
         @yield('css')
@@ -85,7 +105,7 @@
     	<header>
     		@include('layouts/nav')
     	</header>
-    	<div id="wrapper">
+    	<div class="wrapper">
 
     		<div id="content" class="row">
     			<div class="content-container">
@@ -97,11 +117,14 @@
     				</div>
     			</div>
     		</div>
+        </div>
 
-    		<footer id="footer" class="footer row">
-    			<p id="footer-text">&copy; Checkeasy {{date("Y")}}</p>
-    		</footer>
-    	</div>
+        <div class="push"></div>
+
+		<footer id="footer" class="footer row">
+			<p id="footer-text">&copy; Checkeasy {{date("Y")}}</p>
+		</footer>
+    	
 
     	@yield('js')
 
