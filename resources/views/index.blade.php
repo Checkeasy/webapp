@@ -47,10 +47,10 @@
 					</div>
 					<div class="row">
 						<div class="col-md-6">
-							<button class="btn btn-primary" style="background-color: #3f528a;" href="#">For the customer</button>
+							<a href="{{route('customers')}}" class="btn btn-primary" style="background-color: #3f528a;" href="#">For the customer</a>
 						</div>
 						<div class="col-md-offset-6">
-							<button class="btn btn-primary" style="background-color: #3f528a;" href="#">For the restaurant</button>
+							<a href="{{route('restaurants')}}" class="btn btn-primary" style="background-color: #3f528a;" href="#">For the restaurant</a>
 						</div>
 					</div>
 				</div><br><br>

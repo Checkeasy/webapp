@@ -19,7 +19,7 @@
 						</ul>
 					</div>
 					<div class="col-md-4 text-center">
-						<img style="width: 200px; height: 200px;" src="/images/mobile.jpg"><br><br>
+						<img style="width: 150px; height: 200px;" src="/images/mobile.jpg"><br><br>
 						<h4>2. Check-in</h4>
 						<ul class="text-left">
 							<li>Text restaurant code to Checkeasy</li>
