@@ -2,11 +2,16 @@
 
 @section('css')
 <style type="text/css">
-	#back {
-		background: url('images/background.jpg');
+	.content {
+		background: url('images/food.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
-}
+	}
+
+	#problem {
+		margin-left: 15px;
+	}
+
 </style>
 @stop
 
@@ -14,20 +19,25 @@
 <div class="content">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12">
-				<h1 class="page-header">Checkeasy - The Bill is On Us</h1>
-				<div id="back" class="text-center"><br><br><br><br><br><br>
+			<div class="col-xs-12 col-sm-12 col-md-12"><br><br><br><br><br><br><br>
+			<section>
+				<h1 style="color: #FFF; margin-left: 50px;">Checkeasy - The Bill is On Us</h1>
+				<div class="text-center"><br><br><br><br>
 					<a class="btn btn-lg btn-primary" style="background-color: #3f528a;" href="{{route('signup')}}">Sign Up</a><br><br><br><br><br><br>
 				</div><br>
+			</section>
+			<section id="intro">
 				<div class="row">
 					<div class="col-md-6">
 						<i class="fa fa-camera-retro fa-5x"></i>
 					</div>
 					<div class="col-md-offset-6">
-						<h3>Tired of waiting for the bill?</h3>
-						<p>
-							The checkout process at resturants takes too long and involes too many steps.
-						</p>
+						<div id="problem">
+							<h3>Tired of waiting for the bill?</h3>
+							<p>
+								The checkout process at resturants takes too long and involes too many steps.
+							</p>
+						</div>
 					</div>
 				</div>
 				<div class="row">
@@ -54,6 +64,7 @@
 						</div>
 					</div>
 				</div><br><br>
+			</section>
 			</div>
 		</div>
 	</div>

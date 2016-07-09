@@ -1,12 +1,26 @@
 @extends('layouts.app')
 
+@section('css')
+<style type="text/css">
+	.content {
+		background: url('images/food.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+</style>
+@stop
+
 @section('content')
 <div class="content">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12">
-				<h1 class="page-header">Customers - Convenience All Around</h1><br>
+			<div class="col-xs-12 col-sm-12 col-md-12"><br><br><br><br><br><br><br>
+			<section>
+				<h1 style="color: #FFF; margin-left: 50px;">Customers - Convinience All Around</h1>
 				<h4>Just 3 Simple Steps</h4><br><br>
+			</section>
+			<section>
 				<div style="height: 250px;" class="row">
 					<div class="col-md-4 text-center">
 						<img style="width: 200px; height: 200px;" src="/images/desktop.png"><br><br>
@@ -29,12 +43,13 @@
 					<div class="col-md-4 text-center">
 						<img style="width: 200px; height: 200px;" src="/images/leave.png"><br><br>
 						<h4>3. Leave Whenever</h4>
-						<ul>
+						<ul class="text-left">
 							<li>You will get your receipt via email/text message</li>
 							<li>Change the tip if you like up to 2 hours after getting receipt</li>
 						</ul>
 					</div>
 				</div>
+			</section>
 			</div>
 		</div>
 	</div>
