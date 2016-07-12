@@ -2,7 +2,7 @@
 
 @section('css')
 <style type="text/css">
-	.content {
+	#actual {
 		background: url('images/food.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -12,15 +12,24 @@
 @stop
 
 @section('content')
-<div class="content">
+<div id="actual" class="content">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12"><br><br><br><br><br><br><br>
 			<section>
 				<h1 style="color: #FFF; margin-left: 50px;">Customers - Convinience All Around</h1>
-				<h4>Just 3 Simple Steps</h4><br><br>
+				<h4></h4><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 			</section>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12"><br><br><br>
 			<section>
+			<h4>Just three simple steps.</h4><br><br>
 				<div style="height: 250px;" class="row">
 					<div class="col-md-4 text-center">
 						<img style="width: 200px; height: 200px;" src="/images/desktop.png"><br><br>

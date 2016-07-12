@@ -2,7 +2,7 @@
 
 @section('css')
 <style type="text/css">
-	.content {
+	#actual {
 		background: url('images/food.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -16,16 +16,24 @@
 @stop
 
 @section('content')
-<div class="content">
+<div id="actual" class="content">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12"><br><br><br><br><br><br><br>
 			<section>
-				<h1 style="color: #FFF; margin-left: 50px;">Checkeasy - The Bill is On Us</h1>
+				<h1 style="color: #FFF; margin-left: 50px;"><b>Checkeasy - The Bill is On Us</b></h1>
 				<div class="text-center"><br><br><br><br>
-					<a class="btn btn-lg btn-primary" style="background-color: #3f528a;" href="{{route('signup')}}">Sign Up</a><br><br><br><br><br><br>
-				</div><br>
+					<a class="btn btn-lg btn-primary" style="background-color: #3f528a; padding: 15px 25px 15px 25px; font-size: 22px;" href="{{route('signup')}}">Sign Up</a><br><br><br><br><br><br>
+				</div><br><br><br><br><br><br><br><br><br>
 			</section>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12"><br><br><br><br>
 			<section id="intro">
 				<div class="row">
 					<div class="col-md-6">
